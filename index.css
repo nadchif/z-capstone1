@@ -1,48 +1,41 @@
-/* https://coolors.co/85ffc7-297373-ff8552-e6e6e6-39393a */
-.bg-aquamarine {
-  background-color: #85ffc7ff;
-}
-.bg-skobeloff {
-  background-color: #297373ff;
-}
-.bg-coral {
-  background-color: #ff8552ff;
-}
-.bg-platinum {
-  background-color: #d4b483;
-}
-.bg-onyx {
-  background-color: #39393aff;
-}
-/* https://coolors.co/42f2f7-46acc2-498c8a-4b6858-4d4730 */
-
-.bg-aqua {
-  background-color: #42f2f7;
-}
-.bg-pacific-blue {
-  background-color: #46acc2;
-}
-.bg-dark-cyan {
-  background-color: #498c8a;
-}
-.bg-feldgrau {
-  background-color: #4b6858;
-}
-
-.bg-max * {
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+/* https://coolors.co/2ec0f9-67aaf9-9bbdf9-c4e0f9-b95f89 */
+.bg-capri {
+  background-color: #2ec0f9;
+}
+.bg-french-sky {
+  background-color: #67aaf9;
+}
+.bg-baby-blue {
+  background-color: #9bbdf9;
+}
+.bg-beau-blue {
+  background-color: #c4e0f9;
+}
+.bg-mulberry {
+  background-color: #b95f89;
+}
+.-mt-4 {
+  margin-top: -4rem;
+}
+.h-40-vh {
+  height: 40vh;
+}
+.h-50-vh {
+  height: 50vh;
+}
+.h-60-vh {
+  height: 60vh;
 }
 
 body {
   font-family: "IBM Plex Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#landing {
-  height: 100vh;
-  background-image: url("https://images.pexels.com/photos/8385739/pexels-photo-8385739.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.carousel-item {
+  height: 24rem;
 }
