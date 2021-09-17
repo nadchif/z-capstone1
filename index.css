@@ -57,10 +57,18 @@ body {
   height: 50vh;
 }
 
+.carousel-caption h3 {
+  background: rgba(255, 255, 255, 0.4);
+}
+
 .tool-icon {
   width: 4rem;
 }
 
 .project-card-img {
   height: 15rem;
+}
+
+.fab {
+  font-size: 1.5rem;
 }
